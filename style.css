@@ -2,7 +2,7 @@ body{
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
     
@@ -53,4 +53,29 @@ p{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+
+/* experince-section */
+.experince-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 35px gray;
+    border-radius: 8px;
+}
+.Experiences-section{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+   background-position: left;
+}
+#full-stack-devoloper{
+    border-left: 8px solid orangered;
+}
+#baby-devoloper{
+    border-left: 8px solid green;
+}
+footer p{
+    text-align: center;
 }
